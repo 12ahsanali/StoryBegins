@@ -48,11 +48,13 @@ const Interveiws = () => {
         {/* art and design */}
         <div className="relative pt-[20px]">
           <div className="relative left-[-5px] flex justify=start w-[130px] h-[35px]">
+            <a target="_blank" href="https://www.artinthemiddle.com/collection/dine"> 
             <img
               src="Images/art&drop.jpg"
               className="w-full h-full -object-fill"
               alt=""
             />
+            </a>
           </div>
           <div className="relative w-full h-[470px] pt-[15px]">
             <img
@@ -72,7 +74,7 @@ const Interveiws = () => {
                 photos. Then head to Ting Irie for bold Jamaican flavours and
                 beach views. Ideal for couples, mates or solo wanderers.
               </p>
-              <button className="rounded-lg px-[40px] py-[10px] text-[16px] font-Arial text-black bg-[rgb(255,130,197)]">
+              <button className="hover:cursor-pointer rounded-lg px-[40px] py-[10px] text-[16px] font-Arial text-black bg-[rgb(255,130,197)]">
                 <a  target="_blank"  href="https://www.artinthemiddle.com/blog/art-and-dine-teamlab-phenomena-ting-irie-abu-dhabi">Read more
                 </a>
               </button>
@@ -84,7 +86,9 @@ const Interveiws = () => {
         <div className="w-full h-[289px] bg-[rgb(22,28,45)] border-[#d9d9d9] mt-7 mb-5">
           <div className=" flex flex-col items-center justify-center text-center">
             <div className="w-[114px] h-[114px]">
+              <a  target="_blank" href="https://www.artinthemiddle.com/">
               <img src="/Images/AMlogo.png" alt="" />
+              </a>
             </div>
             <p className="text-white pt-[10px] text-[14px] font-bold font-Arial">
               Art in the Middle Magazine
@@ -96,22 +100,22 @@ const Interveiws = () => {
                 </a>
               </div>
               <div className=" w-[32px] h-[32px]">
-                <a  target="_blank" href="">
+                <a  target="_blank" href="https://www.pinterest.com/@ArtintheMiddlemagazine/">
                   <img src="/Images/picoicon.png" alt="a" />
                 </a>
               </div>
               <div className=" w-[32px] h-[32px]">
-                <a  target="_blank" href="">
+                <a  target="_blank" href="https://www.instagram.com/artinthemiddlemag/">
                   <img src="/Images/instagramicon.png" alt="a" />
                 </a>
               </div>
               <div className=" w-[32px] h-[32px]">
-                <a  target="_blank" href="">
+                <a  target="_blank" href="https://linkedin.com/company/art-in-the-middle-magazine">
                   <img src="/Images/linkedinicon.png" alt="a" />
                 </a>
               </div>
               <div className=" w-[32px] h-[32px]">
-                <a  target="_blank" href="">
+                <a  target="_blank" href="https://www.facebook.com/artinthemiddle">
                   <img src="/Images/facebookicon.png" alt="a" />
                 </a>
               </div>

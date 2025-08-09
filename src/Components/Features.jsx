@@ -6,7 +6,9 @@ const Features = () => {
     {/* feature */}
     <div className="relative pt-[10px]">
         <div className="relative left-[-5px] flex justify=start w-[130px] h-[35px]">
+          <a href="https://www.artinthemiddle.com/collection/feature">
             <img src="Images/featuresimage.jpg" className="w-full h-full -object-fill" alt="" />
+          </a>
         </div>
       <div class="parent py-[20px]">
         <div class="div1">
