@@ -1,0 +1,41 @@
+@import "tailwindcss";
+.font-helvetica{
+    font-family: arial,helvetica,sans-serif; 
+}
+.font-Arial{
+    font-family: Arial;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 12px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 1 / span 1;
+}
+
+.div2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-row: span 1 / span 1;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+        
