@@ -18,29 +18,48 @@ const Interveiws = () => {
           <div className="flex flex-row items-center justify-center gap-4 mt-4">
             <div className="w-full h-[160px]">
                 <a  target="_blank" href="https://www.artinthemiddle.com/blog/futura-on-street-art-his-les-benjamins-collab-and-abu-dhabi-s-creative-energy">
-              <img
-                src="/Images/interveiwimage1.jpg"
+               <div className="w-full h-full relative rounded-b-lg overflow-hidden">
+                <img
+                src="/Images/interveiwimage1.webp"
                 alt=""
-                className="object-fill w-full h-full rounded-lg"
+                className="object-cover w-full h-full rounded-lg"
               />
+              <div className="absolute bottom-0 left-0 bg-[rgba(0,0,0,0.5)] w-full ">
+              <p className="text-gray-200 font-Arial text-[8px] leading-[13px] font-semibold px-2 py-1">
+                FUTURA on street art, his Les Benjamins collab and Abu Dhabi,s creative energy.</p>
+              </div>
+               </div>
                 </a>
             </div>
             <div className="w-full h-[160px]">
                 <a  target="_blank" href="https://www.artinthemiddle.com/blog/artist-goloba-charles-paints-a-new-life-in-dubai">
-              <img
-                src="/Images/interveiwimage2.jpg"
+              <div className="w-full h-full relative rounded-b-lg overflow-hidden">
+                <img
+                src="/Images/interveiwimage2.webp"
                 alt=""
-                className="object-fill w-full h-full rounded-lg"
+                className="object-cover w-full h-full rounded-lg"
               />
+              <div className="absolute w-full bottom-0 left-0 bg-[rgba(0,0,0,0.5)]">
+              <p className="text-gray-200 text-[9px] font-Arial  leading-[13px] font-semibold px-2 py-1  bottom-0">
+                Artist Goloba Charles paints a new life in Dubai</p>
+              </div>
+              </div>
+
                 </a>
             </div>
             <div className="w-full h-[160px]">
                 <a  target="_blank" href="https://www.artinthemiddle.com/blog/inside-takhayyal-e-l-seed-talks-imagination-calligraphy-and-dubai-s-art-scene">
-              <img
-                src="/Images/interveiwimage3.jpg"
+             <div className="w-full h-full relative rounded-b-lg overflow-hidden">
+                 <img
+                src="/Images/interveiwimage3.webp"
                 alt=""
-                className="object-fill w-full h-full rounded-lg"
+                className="object-cover w-full h-full rounded-lg"
               />
+              <div className="absolute w-full bottom-0 left-0 bg-[rgba(0,0,0,0.4)]">
+              <p className="text-gray-200 text-[9px] leading-[13px] font-Arial  font-semibold px-2 py-1  bottom-0">
+                Inside Takhayyal: eL Seed talks imagination, calligraphy and Dubai's art scene</p>
+              </div>
+             </div>
                 </a>
             </div>
           </div>
@@ -62,7 +81,7 @@ const Interveiws = () => {
               alt=""
               className="w-full h-full object-cover"
             />
-            <div className="absolute flex flex-col items-center text-center inset-0 py-[100px] px-[15px] text-white">
+            <div className="absolute  text-center inset-0 pt-[120px]  px-[15px] text-white">
               <h1 className="leading-[39px] text-[26px] font-bold font-Arial pb-5">
                 teamLab Phenomena & Ting Irie Abu Dhabi
               </h1>
